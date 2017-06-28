@@ -1,26 +1,21 @@
 {
     "name": "metmeer/module-url-key-fix",
-    "description": "Fix 'URL key for specified store already exists' errors.",
-    "require": {
-        "php": "~5.6.0|~7.0.0",
-        "magento/framework": "100.1.*",
-        "magento/module-catalog-url-rewrite": "100.1.*"
-    },
-    "type": "magento2-module",
-    "version": "0.1.0",
+    "description": "",
     "license": "proprietary",
     "authors": [
         {
             "name": "METMEER",
-            "email": "support@metmeer.nl"
+            "email": "info@metmeer.nl"
         }
     ],
+    "minimum-stability": "dev",
+    "require": {},
     "autoload": {
-        "files": [
-            "registration.php"
-        ],
         "psr-4": {
             "METMEER\\UrlKeyFix\\": ""
-        }
+        },
+        "files": [
+            "registration.php"
+        ]
     }
 }
